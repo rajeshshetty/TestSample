@@ -40,4 +40,4 @@ jobs:
           destination: outputs
       - run:
           name: Upload apk
-          command: sh ./deploy_dev.sh
+          command: sh TestSample/.circleci/deploy_dev.sh
