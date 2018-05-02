@@ -33,7 +33,7 @@ jobs:
       - store_test_results:
           path: app/build/test-results
       - run:
-          name: Generate debig apk
+          name: Generate debug apk
           command: ./gradlew assembleDebug
       - store_artifacts:
           path: app/build/outputs/apk
