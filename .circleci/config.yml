@@ -39,5 +39,5 @@ jobs:
           path: app/build/outputs/apk
           destination: outputs
       - run:
-      name: Upload apk
-      command: sh ./deploy_dev.sh
+          name: Upload apk
+          command: sh ./deploy_dev.sh
